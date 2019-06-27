@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import {
-  AppRegistry,
   Navigator,
   StyleSheet
 } from 'react-native';
@@ -25,4 +24,3 @@ const styles = StyleSheet.create({
     flex: 1,
   }
 });
-AppRegistry.registerComponent('Expenses', () => Expenses);
