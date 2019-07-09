@@ -8,13 +8,13 @@ export class index extends Component {
   constructor (props) = {
   super();
   this.state = {
-    budget: undefined;
+    budget: undefined,
     }
   }
 
   PropTypes = {
-    monthString = PropTypes.string.isRequired;
-    saveAndUpdateBudget = PropTypes.func.isRequired;
+    monthString = PropTypes.string.isRequired,
+    saveAndUpdateBudget = PropTypes.func.isRequired,
   }
 
   saveGoalValue(budget) {

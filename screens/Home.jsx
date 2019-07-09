@@ -5,17 +5,17 @@ import * as dateMethods from '../utils/dateMethods';
 import * as storageMethods from '../utils/storageMethods';
 
 export class Home extends Component {
-  constructor(props) = {
+  constructor(props) {
     super();
     this.state = {
-      budget: undefined;
+      budget: undefined,
     }
   }
 
   componentWillMount() {
     this.setState({
-      month: dateMethods.getMonth;
-      year: dateMethods.getYear;
+      month: dateMethods.getMonth,
+      year: dateMethods.getYear,
     });
     this._updateBudget();
   }

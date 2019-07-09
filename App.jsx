@@ -3,7 +3,7 @@ import {
   Navigator,
   StyleSheet
 } from 'react-native';
-import Home from './scenes/Home';
+import Home from './screens/Home';
 
 export default class Expenses extends Component {
   render() {
