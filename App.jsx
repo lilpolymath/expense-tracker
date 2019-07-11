@@ -1,10 +1,9 @@
 import React, { Component } from 'react';
 import {
-  AppRegistry,
   Navigator,
   StyleSheet
 } from 'react-native';
-import Home from './scenes/Home';
+import Home from './screens/Home';
 
 export default class Expenses extends Component {
   render() {
@@ -25,4 +24,3 @@ const styles = StyleSheet.create({
     flex: 1,
   }
 });
-AppRegistry.registerComponent('Expenses', () => Expenses);
