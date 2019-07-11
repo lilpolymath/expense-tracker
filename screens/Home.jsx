@@ -7,7 +7,7 @@ export class Home extends Component {
   constructor(props) = {
     super();
     this.state = {
-      budget: undefined;
+      budget: undefined,
     }
   }
   async componentWillMount() {
